@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random Password Generator</title>
+    <!--Fontawesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Vault</h1>
+        <input type="text" id="output">
+        <h6 class="hidden" id="alertmsg">
+            Password copied
+        </h6>
+        <button id="generate">
+            <i class="fas fa-random"></i>
+        </button>
+        <button id="copy">
+            <i class="far fa-copy"></i>
+        </button>
+        <input type="range" id="length" min="8" max="20" value="8">
+        <h3 id="length-val">8</h3>
+    </div>
+
+    <!--Script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
